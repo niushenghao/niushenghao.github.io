@@ -1,94 +1,94 @@
 * {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    background: #333;
+	background: #333;
 }
 
 ul {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    /*3d空间*/
-    transform-style: preserve-3d;
-    animation: box 20s linear infinite;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	/*3d空间*/
+	transform-style: preserve-3d;
+	animation: box 20s linear infinite;
 }
 
 @keyframes box {
 
-    /*3d旋转 x y z deg*/
-    from {
-        transform: rotate3d(0, 0, 0, 0deg);
-    }
+	/*3d旋转 x y z deg*/
+	from {
+		transform: rotate3d(0, 0, 0, 0deg);
+	}
 
-    to {
-        transform: rotate3d(1, 1, 1, 360deg);
-    }
+	to {
+		transform: rotate3d(1, 1, 1, 360deg);
+	}
 }
 
 li {
-    width: 300px;
-    height: 300px;
-    list-style: none;
-    border: 1px solid black;
-    position: absolute;
-    opacity: 0.8;
-    box-shadow: 0px 0px 10px white;
+	width: 300px;
+	height: 300px;
+	list-style: none;
+	border: 1px solid black;
+	position: absolute;
+	opacity: 0.8;
+	box-shadow: 0px 0px 10px white;
 }
 
 li:nth-child(1) {
-    background: url(../img/44454554.gif);
-    background-position: center;
-    background-size: cover;
-    transform: translateZ(150px);
+	background: url(../img/Screenshot_20210521-153557__01.jpg);
+	background-position: center;
+	background-size: cover;
+	transform: translateZ(150px);
 }
 
 /*后*/
 li:nth-child(2) {
-    background: url(../img/45111.gif);
-    background-position: center;
-    background-size: cover;
-    transform: translateZ(-150px);
+	background: url(../img/Screenshot_20210521-153642__01.jpg);
+	background-position: center;
+	background-size: cover;
+	transform: translateZ(-150px);
 }
 
 /*左*/
 li:nth-child(3) {
-    background: url(../img/444444.gif);
-    background-position: center;
-    background-size: cover;
-    transform: rotateY(90deg) translateZ(-150px);
+	background: url(../img/mmexport1621180930303.jpg);
+	background-position: center;
+	background-size: cover;
+	transform: rotateY(90deg) translateZ(-150px);
 }
 
 /*右*/
 li:nth-child(4) {
-    background: url(../img/555555.gif);
-    background-position: center;
-    background-size: cover;
-    transform: rotateY(90deg) translateZ(150px);
+	background: url(../img/mmexport1621582248928.jpg);
+	background-position: center;
+	background-size: cover;
+	transform: rotateY(90deg) translateZ(150px);
 }
 
 /*上*/
 li:nth-child(5) {
-    background: url(../img/45898412.gif);
-    background-position: center;
-    background-size: cover;
-    transform: rotateX(90deg) translateZ(150px);
+	background: url(../img/mmexport1621582376875.jpg);
+	background-position: center;
+	background-size: cover;
+	transform: rotateX(90deg) translateZ(150px);
 }
 
 li:nth-child(6) {
-    background: url(../img/4578578.jpg);
-    background-position: center;
-    background-size: cover;
-    transform: rotateX(90deg) translateZ(-150px);
+	background: url(../img/45898412.gif);
+	background-position: center;
+	background-size: cover;
+	transform: rotateX(90deg) translateZ(-150px);
 }
 
 ul:hover {
-    animation-play-state: paused;
+	animation-play-state: paused;
 }
